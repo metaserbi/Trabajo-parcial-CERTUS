@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formularios</title>
+</head>
+<body>
+    <section id="formulario">
+        <h1>FORMULARIO DE REGISTRO</h1>
+        <div id="fix">
+        <P>Complete el Formulario con este Registro</P>
+        </div>
+        <hr>
+        <form id="formCreate" action="ejercicio.html" method="get">
+            <!--nambe-->
+            <div class="er">
+                <label for="name">Name:</label> <br>
+                <input type="text" name="firstname" id="name" required>
+            </div>
+            <!--last name-->
+            <div class="er">
+                <label for="Lastname">Last Name</label> <br>
+                <input type="text" name="Lastname" id="Lastname" required>
+            </div>
+            <!--dni-->
+            <div class="er">
+                <label for="DNI">DNI</label> <br>
+                <input type="tel" name="dni" id="DNI" maxlength="8" required>
+            </div>   
+            <!--correo-->
+            <div class="er">
+                <label for="Email">Email</label> <br>
+                <input type="email" name="Email" id="Email" maxlength="100" required>
+            </div>
+            <!--date-->
+            <div class="er">
+                <label for="DATE">Fecha de Nacimiento</label> <br>
+                <input type="date" name="DATE" id="DATE" min="1970-12-31" required>
+            </div>
+            <!--sexo-->
+            <div class="er"> 
+                <p>Sexo</p>
+                <input type="radio" name="sexo" id="masculino" value="m" checked>
+                <label for="masculino" style="display: inline;">Masculino</label>
+                <input type="radio" name="sexo" id="femenino" value="f" checked>
+                <label for="femenino" style="display: inline;">femenino</label>
+            </div>
+            <!--user-->
+            <div class="er">
+                <label for="USER">User</label> <br>
+                <input type="text" name="User" id="USER" required>
+            </div>
+            <!--password-->
+            <div class="er">
+                <label for="PASSWORD">PASSWORD</label> <br>
+                <input type="password" name="PASSWORD" id="PASSWORD">
+            </div>
+            <!--cell-->
+            <div class="er">
+                <label for="PHONE">Celular</label> <br>
+                <input type="tel" name="PHONE" id="PHONE" maxlength="13">
+            </div>
+            <!--Adress-->
+            <div class="er">
+                <label for="ADRESS">Dirección</label> <br>
+                <input type="text" name="ADRESS1" id="ADRESS1"> <br>
+                <input type="text" name="ADRESS2" id="ADRESS2">
+            </div>
+            <!--condiciones-->
+            <div class="er">
+                <input type="checkbox" id="accept" required>
+                <label for="bol">Acepata las <a href="#">condiciones</a> para crear una cuenta  </label>
+            </div>
+
+            <!--submit-->
+            <div>
+                <button type="submit"> Enviar</button>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+            
+
+
+
+        </form>
+
+    </section>
+    
+</body>
+</html>
